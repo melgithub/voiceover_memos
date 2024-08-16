@@ -1,0 +1,44 @@
+# Ignore all audio files
+*.mp3
+*.wav
+*.aac
+*.flac
+*.ogg
+*.wma
+*.aiff
+*.m4a
+
+# Explicitly ignore m4a files (redundant, but for emphasis)
+*.m4a
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments
+venv/
+*.venv
+env/
+*.env
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore log files
+*.log
+
+# Ignore the completed folder
+completed/
+
+# Ignore the Memos folder
+Memos/
+
+# Ignore environment files
+.env
